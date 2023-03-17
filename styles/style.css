@@ -1,0 +1,155 @@
+html {
+  color: white;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #141414;
+  color: white;
+}
+
+main {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: inherit;
+  color: white;
+}
+
+.navbutton {
+  margin-right: 10px;
+  font-size: 2em;
+  font-family: monospace;
+  float: right;
+  text-decoration: none;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  margin-top: 45px;
+}
+
+.post {
+  display: flex;
+  gap: 1em;
+  margin-top: 10px;
+}
+
+.title {
+  font-family: "Trebuchet MS", Geneva, sans-serif;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.author {
+  color: gray;
+}
+
+.date {
+  color: gray;
+  float: right;
+}
+
+.postcontent {
+  border: 1px solid gray;
+  padding: 10px;
+  width: 50em;
+}
+
+.content {
+  font-family: Trebuchet MS, Geneva, sans-serif;
+  font-size: 14px;
+  overflow-wrap: break-word;
+}
+
+.votes {
+  flex: 1 0 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.symboltitle {
+  display: flex;
+  align-items: center;
+}
+
+#eye {
+  padding: 0.2em;
+}
+
+.navbar {
+  border-bottom: 1px solid white;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 10;
+  left: 0;
+  right: 0;
+}
+
+a:hover {
+  color: gray;
+}
+
+.searchbar,
+.searchbar:focus {
+  background-color: #141414;
+  color: white;
+  box-shadow: 0;
+}
+
+.search {
+  width: 20em;
+}
+ul.ui-autocomplete.ui-menu,
+ul.ui-autocomplete.ui-menu:hover,
+.ui-menu-item .ui-menu-item-wrapper.ui-state-active {
+  background: #141414;
+  color: white;
+  border: 0px;
+}
+
+.bootstrap-select .btn {
+  background-color: #2a2a2a;
+  color: white;
+  border: 0px;
+  border: 1px solid lightgray;
+  box-shadow: none;
+  font-family: monospace;
+  border-radius: 0px;
+}
+
+.dropdown-menu,
+.dropdown-item {
+  background-color: #2a2a2a;
+  color: white;
+  text-align: center;
+}
+
+.dropdown-item:hover {
+  background-color: #1a1a1a;
+  color: wheat;
+}
+
+.active,
+.selected {
+  background-color: #2a2a2a;
+  color: white;
+}
+
+.filter-option-inner-inner {
+  text-align: center;
+}
+
+#pfp > i {
+  size: 55px;
+}

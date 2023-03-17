@@ -1,0 +1,12 @@
+.authors {
+  display: flex;
+  flex-direction: column;
+}
+
+#author {
+  display: flex;
+}
+
+#email {
+  padding-left: 5px;
+}
